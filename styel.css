@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background:#FFFFFF;
+   padding: 18px 10%;
+}
+.name{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+
+}
+.name li a {
+    text-decoration: none;
+    font-size:  20px;
+    color:#575757 ;
+}
+.contant ul li a{
+    display: flex;
+    list-style: none;
+    gap: 20;
+
+}
+ 
+.primary-bnt{
+    background: #2563EB;
+    padding: 12px 28px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+/* Code. Connect. Create section */
+header{
+   background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./images/banner.jpg");
+   height: 90vh;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.header-contant{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.header-contant h1{
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+.header-contant p{
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.btn{
+    margin-top: 200px;
+}
+/* Meet the Speakers */
+
+.speaker{
+    text-align: center;
+    padding: 80px 20px;
+}
+.speaker h2{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+.speaker-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    max-width: 1280px;
+}
+.speaker-card{
+    text-align: left;
+     border: 1px solid #2563EB;
+    
+}
+.speaker-card img{
+    display: block;
+    object-fit: cover;
+
+   
+
+}
+.container{
+    padding: 16px;
+}
+.new{
+    display: block;
+    font-size: 10px;
+    color: #2563EB;
+    margin-bottom: 10px;
+
+}
+.container h3{
+    font-size: 15px;
+    margin-bottom: 5px;
+
+}
+.container p1{
+    font-size: 13px;
+    color: #575757;
+}
+
+/* card section */
+
+
+.popular{
+    width:90%;
+    margin:80px auto;
+    text-align:center;
+}
+
+.subtitle{
+    color:gray;
+    margin:10px 0 40px;
+}
+
+.card-container{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+    max-width: 1280px;
+    margin: o auto;
+}
+
+.card{
+    border:1px solid #ddd;
+    border-radius:10px;
+    padding:20px;
+    text-align:left;
+}
+
+.active{
+    background:#111827;
+    color:white;
+}
+
+.card h3{
+    font-size:35px;
+    margin:10px 0;
+}
+
+.card ul{
+    margin:20px 0;
+    padding-left:20px;
+}
+
+.card li{
+    margin-bottom:10px;
+}
+
+.card button{
+    width:100%;
+    padding:10px;
+    border:1px solid #000;
+    border-radius:5px;
+    background:white;
+    cursor:pointer;
+}
+
+.active button{
+    background:#2563eb;
+    color:white;
+    border:none;
+}
+
+
