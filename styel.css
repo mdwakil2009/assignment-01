@@ -245,9 +245,14 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 50px;
+
 
 }
 i{
     color: #FFFFFF;
+}
+.last {
+    display: flex;
+    justify-content: space-between;
+    color: wheat;
 }
