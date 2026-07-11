@@ -7,7 +7,7 @@ nav{
    align-items: center;
    justify-content: space-between;
    background:#FFFFFF;
-   padding: 18px 10%;
+   padding: 18px 5%;
 }
 .name{
     display: flex;
@@ -82,7 +82,7 @@ header{
     gap: 30px;
     margin: 0 auto;
     margin-bottom: 30px;
-    max-width: 1280px;
+
 }
 .speaker-card{
     text-align: left;
