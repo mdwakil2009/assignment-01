@@ -134,7 +134,7 @@ header{
     display:grid;
     grid-template-columns:repeat(3,1fr);
     gap:20px;
-    max-width: 1280px;
+    /* max-width: 1280px; */
     margin: o auto;
 }
 
@@ -178,5 +178,76 @@ header{
     color:white;
     border:none;
 }
+ /* something messing geneate  */
+
+ 
+ /* <!-- AI in Programming Section --> */
+.ai-section{
+    background:#111827;
+    padding:80px 8%;
+    text-align:center;
+    color:#fff;
+}
+
+.ai-image img{
+    width:100%;
+    max-width:700px;
+    border-radius:15px;
+    margin-bottom:35px;
+}
+
+.ai-content h2{
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.ai-content p{
+    max-width:750px;
+    margin:0 auto 40px;
+    color:#cbd5e1;
+    line-height:1.8;
+}
+
+.ai-card-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.ai-card{
+    background:#1f2937;
+    padding:25px;
+    border-radius:12px;
+    transition:.3s;
+}
+
+.ai-card:hover{
+    background:#2563eb;
+    transform:translateY(-8px);
+}
+
+.ai-card h3{
+    margin-bottom:10px;
+}
+
+.ai-card p{
+    color:#d1d5db;
+    margin:0;
+}
 
 
+
+/* footer content  */
+footer {
+    background-color: #0D1B2A;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+
+}
+i{
+    color: #FFFFFF;
+}

@@ -4,7 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styel.css">
+    <link rel="stylesheet" href="styel.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <nav>
@@ -12,7 +19,7 @@
         <img src="./images/logo.png" alt="" />
       </div>
       <div>
-        <ul class="name" >
+        <ul class="name">
           <li><a href="">Speakers</a></li>
           <li><a href="">Schedule</a></li>
           <li><a href="">Tracks</a></li>
@@ -79,69 +86,131 @@
       </section>
       <!-- card section -->
       <section class="popular">
+        <h2>Secure Your Spot</h2>
+        <p class="subtitle">Early-bird pricing ends August 15, 2026.</p>
 
-    <h2>Secure Your Spot</h2>
-    <p class="subtitle">Early-bird pricing ends August 15, 2026.</p>
-
-    <div class="card-container">
-
-        <!-- Card 1 -->
-        <div class="card">
+        <div class="card-container">
+          <!-- Card 1 -->
+          <div class="card">
             <p class="plan">STANDARD</p>
             <h3>$399</h3>
             <p class="price">per person</p>
 
             <ul>
-                <li>Access to all 3 conference days</li>
-                <li>48 curated technical talks</li>
-                <li>2 workshop sessions</li>
-                <li>Networking lunch & coffee breaks</li>
-                <li>Conference swag bag</li>
-                <li>Digital recordings (30 days)</li>
+              <li>Access to all 3 conference days</li>
+              <li>48 curated technical talks</li>
+              <li>2 workshop sessions</li>
+              <li>Networking lunch & coffee breaks</li>
+              <li>Conference swag bag</li>
+              <li>Digital recordings (30 days)</li>
             </ul>
 
             <button>Get Standard</button>
-        </div>
+          </div>
 
-        <!-- Card 2 -->
-        <div class="card active">
+          <!-- Card 2 -->
+          <div class="card active">
             <p class="plan">PRO</p>
             <h3>$749</h3>
             <p class="price">per person</p>
 
             <ul>
-                <li>Everything in Standard</li>
-                <li>Unlimited workshop access</li>
-                <li>Speaker meet & greet</li>
-                <li>VIP networking dinner</li>
-                <li>Lifetime recording access</li>
-                <li>1-on-1 mentorship (30 min)</li>
+              <li>Everything in Standard</li>
+              <li>Unlimited workshop access</li>
+              <li>Speaker meet & greet</li>
+              <li>VIP networking dinner</li>
+              <li>Lifetime recording access</li>
+              <li>1-on-1 mentorship (30 min)</li>
             </ul>
 
             <button>Get Pro</button>
-        </div>
+          </div>
 
-        <!-- Card 3 -->
-        <div class="card">
+          <!-- Card 3 -->
+          <div class="card">
             <p class="plan">TEAM</p>
             <h3>$5,999</h3>
             <p class="price">up to 10 people</p>
 
             <ul>
-                <li>Everything in Pro (10 seats)</li>
-                <li>Dedicated team lounge access</li>
-                <li>Private workshop booking</li>
-                <li>Company logo on event page</li>
-                <li>Recruitment booth (1 day)</li>
-                <li>Priority customer support</li>
+              <li>Everything in Pro (10 seats)</li>
+              <li>Dedicated team lounge access</li>
+              <li>Private workshop booking</li>
+              <li>Company logo on event page</li>
+              <li>Recruitment booth (1 day)</li>
+              <li>Priority customer support</li>
             </ul>
 
             <button>Contact Us</button>
+          </div>
+        </div>
+      </section>
+      <!-- something messing geneate  -->
+
+      <!-- AI in Programming Section -->
+      <section class="ai-section">
+        <div class="ai-image">
+          <img src="./images/ai.jpg" alt="AI in Programming" />
         </div>
 
-    </div>
+        <div class="ai-content">
+          <h2>AI in Modern Programming</h2>
 
-</section>
+          <p>
+            Artificial Intelligence is transforming software development by
+            helping developers write code faster, fix bugs, generate
+            documentation, and improve productivity. AI is becoming an essential
+            partner for every modern programmer.
+          </p>
+        </div>
+
+        <div class="ai-card-container">
+          <div class="ai-card">
+            <h3>⚡ Faster Coding</h3>
+            <p>Generate clean and efficient code in less time.</p>
+          </div>
+
+          <div class="ai-card">
+            <h3>🐞 Smart Debugging</h3>
+            <p>Identify and solve coding errors with AI assistance.</p>
+          </div>
+
+          <div class="ai-card">
+            <h3>📄 Auto Documentation</h3>
+            <p>Create project documentation quickly and accurately.</p>
+          </div>
+
+          <div class="ai-card">
+            <h3>🚀 Better Productivity</h3>
+            <p>
+              Spend more time solving problems while AI handles repetitive
+              tasks.
+            </p>
+          </div>
+        </div>
+      </section>
+    
+      <footer>
+        <div class="footer-content">
+          <div>
+            <img src="./images/footer-logo.png" alt="footer-logo" />
+          </div>
+          <div>
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+        <hr>
+        <div class="last">
+          <div>
+            <p>© 2026 DevConf. All rights reserved.</p>
+          </div>
+          <div>
+            <p>Privacy Policy   Terms of Service</p>
+          </div>
+        </div>
+      </footer>
     </main>
   </body>
 </html>
