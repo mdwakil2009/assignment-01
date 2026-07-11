@@ -240,6 +240,8 @@ header{
 /* footer content  */
 footer {
     background-color: #0D1B2A;
+    padding: 30px 70px;
+    margin-top: 20px;
 }
 .footer-content {
     display: flex;
