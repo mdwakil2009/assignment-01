@@ -1,0 +1,1 @@
+Create a modern HTML and CSS section for a DevConf 2026 website about AI in Modern Programming. Use a dark theme with a large AI image at the top, followed by a heading, a short description, and four feature cards. Make the design responsive, clean, and professional using only HTML and CSS.
